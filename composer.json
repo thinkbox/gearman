@@ -1,0 +1,23 @@
+{
+    "name": "codecontrol/gearman",
+    "type": "library",
+    "description": "Simple wrapper around PHP native extension",
+    "keywords": ["gearman","worker"],
+    "homepage": "https://github.com/codecontrol/gearman",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pera Jovic",
+            "email": "pera@codecontrol.rs",
+            "homepage": "http://www.codecontrol.rs/en/index",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "codecontrol/phpunit-helper": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
